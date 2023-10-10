@@ -13,21 +13,26 @@
         <a href="hobby.html">Hobbies & Intresses</a>
         <a href="contact.html">Contact</a>
     </nav>
-      <form>
+      <form  method="post" action="https://tm-statweb.be/sendmail.php">
         <div>
-            <label>Naam</label>
-            <input type="text">
+            <label for="Naam">Naam</label>
+            <input type="text" name="Naam">
         </div>
         <div>
-            <label>E-mail</label>
-            <input type="email">
+            <label for="E-mail">E-mail</label>
+            <input type="email" name="E-mail">
         </div>
         <div>
-            <label>OnderWerp</label>
-            <input type="text">
+            <label for="OnderWerp">OnderWerp</label>
+            <input type="text" name="OnderWerp">
         </div>
-        
-        <textarea></textarea>
+        <div>
+          <textarea name="Vraag"></textarea>
+        </div>
+        <div>
+          <input type="submit">
+        </div>
+        <input type="hidden" name="studentemail" value="r1006732@student.thomasmore.be">
       </form>
     </body>
     
