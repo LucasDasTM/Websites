@@ -5,6 +5,7 @@
 body{
 background-color: rgb(79, 76, 76);
 color: black;
+margin: 0px;
 }
 .flex{
     display: flex;
@@ -35,6 +36,7 @@ nav{
     background-color: black;
     position: sticky;
     top: 0px;
+    font-family: Samurai;
 }
 nav > a{
     font-size: 40px;
@@ -45,4 +47,10 @@ nav > a{
 textarea{
     width: 500px;
     height: 200px;
+}
+@font-face {
+    font-family: "Samurai";
+    src: url( "Fonts/SAMURAICP-Bold.otf");
+    font-weight: normal;
+    font-style: normal;
 }
