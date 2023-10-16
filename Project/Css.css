@@ -54,3 +54,32 @@ textarea{
     font-weight: normal;
     font-style: normal;
 }
+.Left-Sidebar{
+    left: 0px;
+    width: 25%;
+    position: relative;
+    background-color: grey;
+    float: left;
+    height: 100%;
+}
+.Right-Sidebar{
+    width: 75%;
+position: relative;
+float: left;
+background-color: grey;
+overflow: hidden;
+height: 100%;
+}
+h3{
+    font-weight: bold;
+    font-size: 25px;
+}
+.Sidebar{
+    font-size: 15px;
+}
+.gekend{
+    color: red;
+}
+.inlign > li{
+    padding:  5px;
+}
