@@ -1,6 +1,7 @@
 #profile{
     width:  500px;
     height: 250px;
+    float: right;
 }
 #photoHobby1{
     width:  500px;
@@ -78,7 +79,8 @@ textarea{
     background-color: rgb(79, 76, 76);
     color: rgb(155, 144, 144);
     float: left;
-    height: 100%;
+    min-height: 100%;
+    padding-top: 0px;
 }
 .Right-Sidebar{
     width: 75%;
@@ -86,6 +88,7 @@ position: relative;
 float: left;
 overflow: hidden;
 height: 100%;
+padding-top: 0px;
 }
 h3{
     font-weight: bold;
@@ -93,10 +96,14 @@ h3{
 }
 .Sidebar{
     font-size: 15px;
+    padding-top: 0px;
 }
 .gekend{
     color: red;
 }
 .inlign > li{
     padding:  5px;
+}
+div{
+    padding-top: 10px;
 }
