@@ -11,20 +11,29 @@
     height: 250px;
 }
 body{
-background-color: rgb(79, 76, 76);
+background-color: grey;
 color: black;
 margin: 0px;
 }
 .flex{
     display: flex;
     flex-wrap: wrap;
-    background-color: steelblue;
+    background-color:rgb(79, 76, 76);
     justify-content: space-evenly;
 }
 .flex > div{
-    background-color: antiquewhite;
+    background-color: rgb(169, 16, 16);
     margin: 10px;
     padding: 20px;
+    color: antiquewhite;
+}
+.flex>div>a:visited{
+    text-decoration: none;
+    color: antiquewhite;
+}
+.flex>div>a{
+    text-decoration: none;
+    color: antiquewhite;
 }
 nav >a:visited{
     color: white ;
@@ -66,7 +75,8 @@ textarea{
     left: 0px;
     width: 25%;
     position: relative;
-    background-color: grey;
+    background-color: rgb(79, 76, 76);
+    color: rgb(155, 144, 144);
     float: left;
     height: 100%;
 }
@@ -74,7 +84,6 @@ textarea{
     width: 75%;
 position: relative;
 float: left;
-background-color: grey;
 overflow: hidden;
 height: 100%;
 }
