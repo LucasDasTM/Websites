@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="nl">
     <head>
         <title>Contact</title>
+        <meta charset="UTF-8">
         <link rel="stylesheet" href="Css.css">  
         <link rel="icon" href="Images/favicon.ico" type="image/gif" sizes="16x16">
     </head>
@@ -19,15 +20,15 @@
       <form  method="post" action="https://tm-statweb.be/sendmail.php">
         <div>
             <label for="Naam">Naam</label>
-            <input type="text" name="Naam">
+            <input type="text" name="Naam" id="Naam" required>
         </div>
         <div>
             <label for="E-mail">E-mail</label>
-            <input type="email" name="E-mail">
+            <input type="email" name="E-mail" id="E-mail">
         </div>
         <div>
             <label for="OnderWerp">OnderWerp</label>
-            <input type="text" name="OnderWerp">
+            <input type="text" name="OnderWerp" id="OnderWerp">
         </div>
         <div>
           <textarea name="Vraag"></textarea>
